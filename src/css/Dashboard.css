@@ -1,0 +1,62 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fce4ec; /* Light pink background */
+}
+
+.dashboard-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-content {
+    background-color: white; /* Light pink background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    max-width: 600px; /* Limit maximum width */
+}
+
+.dashboard-content h2 {
+    font-weight: bold; /* Make font bolder */
+}
+
+.dashboard-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-content form div {
+    margin-bottom: 10px;
+}
+
+.dashboard-content label {
+    font-weight: bold;
+}
+
+.dashboard-content input[type="text"],
+.dashboard-content input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dashboard-content button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff4081; /* Rose pink color */
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dashboard-content button:hover {
+    background-color: #d81b60; /* Darker rose pink color on hover */
+}
